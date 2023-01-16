@@ -1,0 +1,47 @@
+<!DOCTYPE html>>
+<html lang="ko">
+    <head>
+        <title>The jh timez</title>
+        <style>
+            body{
+                display: flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+            }
+            @keyframes gaegaeggang {
+                0% {
+                    transform: rotateY(0);                   
+                }
+                25%{
+                    transform: scale(2);
+                    border-radius: 0px;
+                }
+                50% {
+                    border-radius: 0px;
+                    transform: rotateY(360deg) translateY(-100px);
+                    border-color: tomato;
+                    opacity: 0;
+                }
+                75%{
+                    transform: scale(5);
+                }
+                100% { 
+                    transform: rotateY(0) translateY(0px);
+                }
+            }
+            img{
+                border: 5px solid black;
+                border-radius: 50% ;
+                width: 200px;
+                animation: gaegaeggang 10s  ease-in-out infinite;
+            }   
+        </style>
+    </head>
+    <body>
+        <img src="img/nori.jpeg"/>
+    </body>
+</html>
+<!-- 
+    대부분 ease-in, ease-out, ease-in-out을 사용하게 된다.
+ -->

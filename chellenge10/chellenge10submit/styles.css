@@ -1,0 +1,29 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;    
+}
+.fa-times {
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.status_bar_btn {
+    margin-top: 50px;
+    margin-right: 1200px;
+}
+.yellow {
+    background-color: rgb(224, 178, 78);
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.yellow1 {
+    scale: 100px;
+}
+
+

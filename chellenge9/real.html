@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>repl.it</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: aquamarine;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            @keyframes dotdotdot {
+                from {
+                    transform: rotate(0deg);                   
+                }                                
+                to {                    
+                    transform: rotate(360deg) ;
+                }                                
+            }
+            @keyframes keykeykey {
+                from {
+                    transform: scale(50px)     
+                }                                
+                to {                    
+                    transform: translatey(20px) ;
+                }                                
+            }
+            
+            
+            .dotgroup{
+                width: 100px;
+                height: 100px;
+                position: absolute ;
+                top: 200px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                animation: dotdotdot 1s infinite;
+                animation-delay: 1.5s ;
+            }
+            .dot {
+                width: 8px;
+                height: 8px;
+                padding: 2px;
+                display: flex;
+                border-radius: 50%;
+                background-color: white;
+                align-items: center;
+                justify-content: space-between;                                
+            }
+            .k {
+                width: 8px;
+                height: 50px;
+                padding: 2px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .kkk{
+                width: 100px;
+                height: 100px;
+                position: absolute ;
+                bottom: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                animation: keykeykey 1s infinite;
+                animation-delay: 1.5s ;
+                
+
+            }                                   
+        </style>
+            <div class="dotgroup">
+                <div class="dot"></div> 
+                <div class="dot"></div> 
+                <div class="dot"></div> 
+            </div>
+            <div class="kkk">
+                <div class="k"></div> 
+                <div class="k"></div> 
+                <div class="k"></div>
+                <div class="k"></div>
+                <div class="k"></div> 
+            </div>
+    </body>
+</html>
